@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
+    "develop": "strapi develop",    
+    "start": "strapi start --host 0.0.0.0 --port 5700",
     "build": "strapi build",
     "strapi": "strapi"
   },
