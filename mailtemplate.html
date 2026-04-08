@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Reservation Info</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f4f4f4; padding: 20px;">
+        <tr>
+            <td align="center">
+                <table width="600" cellpadding="0" cellspacing="0"
+                    style="background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                    <tr>
+                        <td align="center" style="padding-bottom: 20px;">
+                            <h2 style="color: #333333; margin: 0;">Reservation Info</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="color: #555555; font-size: 16px; line-height: 1.5;">
+                                Hello,
+                            </p>
+                            <p style="color: #555555; font-size: 16px; line-height: 1.5;">
+                                Your reservation details are listed below:
+                            </p>
+
+                            <table width="100%" cellpadding="0" cellspacing="0" style="margin-top: 20px;">
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Name Surname:</td>
+                                    <td style="padding: 8px 0;">{{name}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Phone Number:</td>
+                                    <td style="padding: 8px 0;">{{phone}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Email:</td>
+                                    <td style="padding: 8px 0;">{{email}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Car:</td>
+                                    <td style="padding: 8px 0;">{{vehicleTitle}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Class:</td>
+                                    <td style="padding: 8px 0;">{{vehicleClass}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Reservation Type:</td>
+                                    <td style="padding: 8px 0;">{{reservationType}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">From:</td>
+                                    <td style="padding: 8px 0;">{{firstLocation}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">To:</td>
+                                    <td style="padding: 8px 0;">{{lastLocation}}</td>
+                                </tr>
+                                {{hourlyDurationRow}}
+                                {{dailyDuration}}
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Date:</td>
+                                    <td style="padding: 8px 0;">{{date}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Time:</td>
+                                    <td style="padding: 8px 0;">{{time}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Flight No:</td>
+                                    <td style="padding: 8px 0;">{{flightNumber}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Child Seat:</td>
+                                    <td style="padding: 8px 0;">{{childSeat}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Bodyguard Service:</td>
+                                    <td style="padding: 8px 0;">{{bodyguardService}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Hostess Service:</td>
+                                    <td style="padding: 8px 0;">{{airportAssistanceHostessService}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Passenger:</td>
+                                    <td style="padding: 8px 0;">{{passenger}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Luggage:</td>
+                                    <td style="padding: 8px 0;">{{luggage}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Payment Type:</td>
+                                    <td style="padding: 8px 0;">{{paymentMethod}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 8px 0; font-weight: bold;">Price:</td>
+                                    <td style="padding: 8px 0;">{{price}}</td>
+                                </tr>
+                            </table>
+
+                            <p style="color: #555555; font-size: 16px; line-height: 1.5; margin-top: 20px;">
+                                Thank you. Have a nice day.
+                            </p>
+
+                            <p style="color: #999999; font-size: 14px; margin-top: 40px;">
+                                724chauffeur<br />
+                                info@724chauffeur.com
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

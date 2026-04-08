@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section3features_section3features",
+  "info": {
+    "displayName": "section3features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

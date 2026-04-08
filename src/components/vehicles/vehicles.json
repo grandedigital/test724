@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_vehicles_vehicles",
+  "info": {
+    "displayName": "vehicles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "vehicle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vehicle.vehicle"
+    },
+    "percentage": {
+      "type": "decimal",
+      "required": true
+    },
+    "hourly": {
+      "type": "decimal",
+      "required": true
+    },
+    "daily": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

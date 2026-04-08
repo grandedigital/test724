@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "ContactInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "ContactOffice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-office.contact-office"
+    }
+  }
+}

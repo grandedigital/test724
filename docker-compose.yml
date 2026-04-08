@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  strapi:
+    build: .
+    ports:
+      - "1337:5700"
+    env_file:
+      - .env
+    volumes:
+      - ./public/uploads:/app/public/uploads

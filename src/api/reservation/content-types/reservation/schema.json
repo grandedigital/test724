@@ -1,0 +1,132 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "singularName": "reservation",
+    "pluralName": "reservations",
+    "displayName": "Reservation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "childSeat": {
+      "default": 0,
+      "type": "integer"
+    },
+    "reservationNote": {
+      "type": "text"
+    },
+    "reservationType": {
+      "type": "integer",
+      "required": true
+    },
+    "flightNumber": {
+      "type": "string"
+    },
+    "vehicle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vehicle.vehicle",
+      "inversedBy": "reservation"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "surname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "passenger": {
+      "type": "integer"
+    },
+    "luggage": {
+      "type": "integer"
+    },
+    "company": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "paymentMethod": {
+      "type": "integer",
+      "required": true
+    },
+    "firstLocation": {
+      "type": "string",
+      "required": true
+    },
+    "lastLocation": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "required": true
+    },
+    "totalDistance": {
+      "type": "string"
+    },
+    "totalTime": {
+      "type": "string"
+    },
+    "hourlyDuration": {
+      "type": "integer"
+    },
+    "dailyDuration": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "paymentStatus": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "paid",
+        "expired",
+        "failed"
+      ]
+    },
+    "stripeSessionId": {
+      "type": "string"
+    },
+    "stripePaymentIntentId": {
+      "type": "string"
+    },
+    "stripeCustomerId": {
+      "type": "string"
+    },
+    "totalPrice": {
+      "type": "decimal"
+    },
+    "citySlug": {
+      "type": "string"
+    },
+    "bodyguardService": {
+      "type": "integer",
+      "default": 0
+    },
+    "airportAssistanceHostessService": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

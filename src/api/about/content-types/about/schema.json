@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section1title": {
+      "type": "string"
+    },
+    "section1desc": {
+      "type": "string"
+    },
+    "section1image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section1features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "section2title": {
+      "type": "string"
+    },
+    "section2desc": {
+      "type": "richtext"
+    },
+    "section2features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "section3title": {
+      "type": "string"
+    },
+    "section3desc": {
+      "type": "string"
+    },
+    "section3vehicles": {
+      "type": "string"
+    },
+    "section3awards": {
+      "type": "string"
+    },
+    "section3happycustomer": {
+      "type": "string"
+    },
+    "section3videobutton": {
+      "type": "string"
+    },
+    "section3videolink": {
+      "type": "string"
+    },
+    "section3videoimg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section4images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "section4title": {
+      "type": "string"
+    },
+    "section4desc": {
+      "type": "string"
+    },
+    "section4features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    }
+  }
+}

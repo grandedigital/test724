@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_price_settings",
+  "info": {
+    "singularName": "general-price-setting",
+    "pluralName": "general-price-settings",
+    "displayName": "GeneralPriceSetting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "childSeat": {
+      "type": "decimal",
+      "required": true
+    },
+    "bodyguardService": {
+      "type": "decimal",
+      "required": true
+    },
+    "airportAssistanceHostessService": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

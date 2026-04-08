@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Strapi cache and temp files
+.cache/
+.tmp/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Database (eğer sqlite kullanıyorsan)
+*.sqlite
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Git LFS (eğer kullanıyorsan)
+.gitattributes
+
+# Coverage (test çıktısı varsa)
+coverage/
+public/uploads/
