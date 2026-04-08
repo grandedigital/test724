@@ -19,4 +19,4 @@ RUN npm run build
 EXPOSE 1337
 
 # start
-["npm", "run", "start", "--", "--host", "0.0.0.0", "--port", "5700"]
+CMD ["npm", "run", "start"]
